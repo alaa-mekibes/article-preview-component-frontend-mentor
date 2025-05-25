@@ -20,16 +20,18 @@ body {
     background: var(--Light-Grayish-Blue);
 }
 .main_container .container {
+    --border-radius: 10px;
     display: flex;
     flex-direction: column;
     max-width: 28rem;
     margin: 2rem;
     background-color: var(--White);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     box-shadow: var(--boxShadow) 0px 8px 24px;
 }
 .main_container .container .cover {
     max-height: 20rem;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
     overflow: hidden;
     img {width: 100%; object-fit: cover;}
 }
@@ -115,8 +117,11 @@ body {
         flex-direction: row;
         max-width: 42rem;
     }
-    .main_container .container .cover img {
-        height: 100%;
+    .main_container .container .cover {
+        border-radius: var(--border-radius) 0 0 var(--border-radius);
+        img {
+            height: 100%;
+        }
     }
     .main_container .container .article-text {
         margin-block-end: 0;
