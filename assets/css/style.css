@@ -72,7 +72,7 @@ body {
 .main_container .container .share .profile .profile-info {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: .3125rem;
     font-size: var(--author-Size);
     .author-name {
         font-weight: var(--FW-700);
@@ -130,7 +130,7 @@ body {
     }
     }
     .main_container .container .share .profile .profile-info {
-        gap: 3px;
+        gap: .1875rem;
     }
     .main_container .container .share .share-box {
         width: 2rem;
@@ -141,7 +141,7 @@ body {
         position: absolute;
         background-color: var(--Very-Dark-Grayish-Blue);
         padding: 1rem;
-        font-size: 12px;
+        font-size: .75rem;
         border-radius: 10px;
         top: calc(-100% - 2rem);
         left: calc(50% + 2px);
@@ -150,8 +150,8 @@ body {
         &::before {
             content: '';
             position: absolute;
-            width: 10px;
-            height: 10px;
+            width: .625rem;
+            height: .625rem;
             bottom: -19px;
             left: 50%;
             transform: translateX(-50%);
@@ -195,6 +195,12 @@ body {
             }
         }
     }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --Transition-2: none;
+  }
 }
 
 /* FrameWorks */
