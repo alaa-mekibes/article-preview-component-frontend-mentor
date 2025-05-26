@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-TMRSojuUxv)
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-FcF3Q-f5OK)
 - [live site URL](https://alaa-mekibes.github.io/article-preview-component-frontend-mentor)
 
 ## My process

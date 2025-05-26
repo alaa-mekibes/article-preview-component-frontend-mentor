@@ -197,12 +197,6 @@ body {
     }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  :root {
-    --Transition-2: none;
-  }
-}
-
 /* FrameWorks */
 .display {
     display: flex !important;
@@ -212,4 +206,11 @@ body {
 }
 .width-full {
     width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
 }
