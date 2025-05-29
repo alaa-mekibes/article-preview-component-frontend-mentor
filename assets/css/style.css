@@ -28,6 +28,7 @@ body {
     background-color: var(--White);
     border-radius: var(--border-radius);
     box-shadow: var(--boxShadow) 0px 8px 24px;
+    max-height: 50rem;
 }
 .main_container .container .cover {
     max-height: 20rem;
@@ -109,7 +110,7 @@ body {
 
 
 /* Desktop */
-@media (min-width: 48rem) {
+@media (min-width: 50rem) {
     .main_container .container {
         --Heading-Size: 1rem;
         --Paragraph-Size: .75rem;

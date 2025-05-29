@@ -10,7 +10,7 @@ class ShareBtn {
     }
     
     isDesktop() {
-        return window.matchMedia('(min-width: 48rem)').matches;
+        return window.matchMedia('(min-width: 50rem)').matches;
     }
 
     init() {
