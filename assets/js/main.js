@@ -50,4 +50,4 @@ class ShareBtn {
 }
 
 // main
-mybtn = new ShareBtn;
+new ShareBtn;
